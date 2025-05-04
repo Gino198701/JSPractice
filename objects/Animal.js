@@ -23,3 +23,5 @@ f.swim();
 
 
 let l = new Animal()
+
+module.exports=Animal;

@@ -1,4 +1,6 @@
-    class Cat{
+    
+    const Animal=require("./Animal")
+    class Cat extends Animal{
 
       #dailySleepHour = 10;
         city = "Chicago"; // outside the class applied for everyone we can use it anytime
@@ -31,4 +33,6 @@
     console.log(princess.kindOfCat);
     console.log(princess.city);
     
+
+    princess.swim();
     
